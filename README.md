@@ -6,3 +6,6 @@ Doing it in this way also helped me to iterate the content quickly.
 Not my best code, but it did the job. And it includes a "fun visual tip" that will show after 20 minutes, to let you know (but not your audience) that 1200 seconds have passed. Instead, your audience will think that you're a cheapskate and that you don't pay for Windows 🙃
 
 For a quick read, just open the `content/content.txt` file.
+
+Or easier, just read the slides in this web export:
+https://www.rawrlab.com/slides/godotfest25/
