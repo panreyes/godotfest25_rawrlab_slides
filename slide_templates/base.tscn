@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://bmjg45nhg5335"]
+
+[ext_resource type="PackedScene" uid="uid://jhxxynglv7a5" path="res://slide_templates/slide_template.tscn" id="1_db6w5"]
+
+[node name="Slide" instance=ExtResource("1_db6w5")]
+
+[node name="TitleLabel" parent="." index="0"]
+offset_right = 1230.0

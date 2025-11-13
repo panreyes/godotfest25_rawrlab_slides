@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://bxx1qrntvxpjm"]
+
+[ext_resource type="PackedScene" uid="uid://jhxxynglv7a5" path="res://slide_templates/slide_template.tscn" id="1_o1t7v"]
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_o1t7v"]
+size = Vector2(300, 300)
+
+[node name="Slide" instance=ExtResource("1_o1t7v")]
+
+[node name="ContentLabel" parent="." index="2"]
+offset_top = 122.0
+offset_right = 873.0
+offset_bottom = 720.0
+
+[node name="Image" parent="." index="5"]
+visible = true
+position = Vector2(1058, 381)
+texture = SubResource("PlaceholderTexture2D_o1t7v")

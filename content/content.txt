@@ -1,0 +1,461 @@
+- My XP porting Godot games to Nintendo Switch™
+slide=title
+		- There is no easy port.
+		- Nintendo Switch™ is a trademark of Nintendo.
+
+- Before we get started
+slide=base
+	- Disclaimer: 100% my experience as a small publisher
+	- "Your mileage may vary" a lot.
+	
+- Who am I?
+slide=left_image
+image=panreyes.jpg
+	- Pablo Navarro, 39 y.o., software developer.
+	- Making 2D games since age 13.
+	
+	- Formerly PiXJuegos.
+	- Involved in BennuGD & PixTudio.
+	
+	- Known in the Godot scene for the "RAWRLAB's Godot ports".
+	
+	- Please excuse my speaking, not used to it.
+	
+	- I pronounce Godot as Godot. Deal with it.
+
+
+- What is RAWRLAB Games?
+slide=right_image
+image=rawrlab.png
+	- Indie game studio founded in 2012 to make eXplosive Dinosaurs
+			- Originally for OUYA.
+
+	- Game developers trying to do indie porting & publishing.
+	
+	- Sometimes it's "we", sometimes it's "I", but mostly me.
+		- With collaborators from all around the globe.
+
+	- Trying to "make it" with near-zero costs/risks.
+			- Near-zero risk means you won't get rich fast,
+				- but you won't lose your house either.
+
+- RAWRLAB's History
+image=xd.jpg
+	- 2012-2018: Made XD in PixTudio, a custom game engine.
+		- · No publishers would port it, so I learnt how to do it myself.
+
+image=spybros.png
+	- May, 2022: Started developing "Spy Bros.".
+		- · Got interested in making it with Godot.
+		- · No Godot port was available at an accessible price at the time (starting from 3,000€ for Nintendo Switch).
+		- · Ended up making Spy Bros with my engine, PixTudio.
+	
+- RAWRLAB's History
+slide=right_image
+image=icon.svg
+	- July, 2022:
+		- Found out that someone was sharing a free basic Godot 3.x port on Nintendo Developer Portal's forums.
+	- Ported two first Godot games for Flynn's Arcade:
+image=spaceducks.jpg
+		- · Space Ducks
+image=donutdodo.png
+		- · Donut Dodo
+		
+image=idd.png
+	- September, 2022: IndieDevDay.
+		- · Many game studios were looking for help to "just release their game on Nintendo Switch".
+		- · I decided to become a publisher, to help projects that did not fit in my partner's, Flynn's Arcade's, already filled release slots.
+image=murtop.png
+
+- RAWRLAB's History
+slide=left_image
+	- After that, a lot of porting & publishing:
+image=murtop.png
+		- Murtop
+image=luisoac.png
+		- Looking up I see only a ceiling
+image=inhabit.png
+		- Inhabit
+image=osteel.png
+		- Operation Steel
+image=satryndx.png
+		- Satryn DX
+image=cashcowdx.png
+		- Cash Cow DX
+image=skies.png
+		- Skies Above
+image=8colors.png
+		- 8colors Star Guardians
+
+- RAWRLAB's History
+slide=right_image
+image=tamagoneko.png
+		- Tamagoneko
+image=vhunterdx.png
+		- V-Hunter Puzzler DX
+image=superspyraccoon.png
+		- Super Spy Raccoon
+image=goliath.png
+		- Goliath Depot
+image=colored.png
+		- Colored Effects
+image=constellations.png
+		- Constellations
+image=ccce.png
+		- Crystal Chip Collector
+
+	- All those games were Made with Godot Engine.
+
+
+- RAWRLAB's History
+image=announcement.png
+slide=left_image
+	- December, 2023: 
+		- · I was the main user of this Nintendo Switch Godot port.
+		- · The original creator wanted to leave it in someone else's hands.
+		- · I took the lead of this "community" port and asked Nintendo for permission to publicly announce its existence.
+	
+	- January, 2024:
+		- · Publicly announced it! 🥳
+
+	- September, 2024:
+image=catboy.jpg
+		- · I noticed that a few studios started making nice games for GB, so I also started porting a few of them.
+
+- RAWRLAB's History
+slide=base
+	- Today:
+			- Happy to be here! 👋
+
+- RAWRLAB's Services: Porting
+slide=right_image
+image=nswitch.jpg
+	- Our numbers:
+		- · 10 games ported for other publishers.
+		- · 12 games ported for publishing as RAWRLAB Games.
+
+	- What is porting for us?
+		- · Platform: Adapt the game to Nintendo's guidelines.
+		- · QA: We will not ship a game until it's free of bugs*.
+		- · UX: Polish and provide the best possible gamefeel.
+		- · Optimization: A lot of tricks to make the game run smooth.
+
+- RAWRLAB's Services: Porting
+slide=right_image
+image=nswitch.jpg
+	- What do we port?
+		- · Godot 3.x and 4.x.
+		- · GB games (GBStudio, ZGB)
+		- · SDL2/3 based engines/games (BennuGD, PixTudio, AGS, raylib)
+
+	- What can't we port?
+		- · Broken games, or without a minimal architecture.
+		- · Games coded in non-latin characters.
+		- · Games that don't run well in a standard PC.
+		- · Multiplayer, C# and some GDExtensions.
+
+- RAWRLAB's Services: Porting
+slide=right_image
+image=nswitch.jpg
+	- How long does each game take to port?
+		- · Between one or two weeks of work.
+		- · Not taking into account possible delays.
+
+	- How much do we make?
+		- · Profit-share, for small games: 20%
+		- · Fixed-fee, from €3,000
+		
+		- · 20% sounds like a lot, 
+			- but for smaller games it's around 500€ the first month
+			- and bigger games won't go for profit share.
+
+- RAWRLAB's Services: Publishing
+slide=right_image
+image=rawrlab.png
+	- We publish small games made with love.
+	- Side job, my living luckily does not depend on this.
+
+	- Lately, publishers are seen as business angels
+			- but good publishers are just good partners.
+
+	- What can't we do:
+		- · Funding or giving money upfront.
+	- What won't we do:
+		- · Recoup.
+		- · Lie to the developer or give them false expectations.
+
+- RAWRLAB's Services: Publishing
+slide=left_image
+image=rawrlab.png
+	- What do we do:
+		- · Work with the developer to polish the game.
+		- · Port it.
+		- · Prepare the store assets.
+		- · Promote it as far as we can.
+		- · Billing.
+		- · Invest a lot of our time.
+		- · Go in the same boat as the developer.
+
+	- How much do we make?
+		- · Profit share, 35%
+		- · (not much from smaller games)
+
+- RAWRLAB's Services: Publishing
+slide=left_image
+image=rawrlab.png
+	- Pure honesty.
+		- "My games have sold between 100 and 2,500 copies the first month."
+		- "If you count on the sales of this game to pay your bills, I'm afraid I can't help you."
+
+	- Not even making half Spanish minimal wage from our profit shares.
+
+	- Sales ratio between Steam x NS:
+		- Most smaller games sell 5x on Nintendo Switch than Steam.
+		- (but that's definitely not true for every game)
+
+- RAWRLAB's Godot ports
+image=nswitch_murtop.jpg
+	- NOT created by me, but, currently, I promote and maintain them.
+	- Free, MIT License: Provided "AS IS", no support, no warranty.
+	- Good enough for most small to mid-size games.
+	- Available as a Nintendo Middleware, for NS1&2.
+	- 3.6 and 4.5 are the current stable versions.
+	- With each game ported, the ports get more mature.
+	- Currently 226 game developers have access to them.
+	- The users of those ports also contribute back.
+	- If you need help, there's a small community in the repository.
+	- Or you can find a lot of people that offer consulting services.
+
+- RAWRLAB's Godot ports
+slide=left_image
+image=nswitch_murtop.jpg
+		- "We made this port, it's thanks to us".
+	- Nope.
+
+	- Godot is like the Everest mountain, and our work is just one grain of salt on top of it.
+
+	- If a game runs well with this port it's 99,9% thanks to the optimizations made to Android, Vulkan and multithreading, by many independent contributors and companies like W4Games.
+
+
+- RAWRLAB's Godot ports
+slide=left_image
+image=nswitch_murtop.jpg
+	- It doesn't mean that we didn't put a lot of effort there, but seeing things at its scale it's just that grain of salt.
+	
+	- I'm just very glad to be able to contribute to Godot's ecosystem, although my contributions are only available for Nintendo Switch developers.
+	
+		- (On the good side, I can just commit my improvements without having to deal with other people 🙃)
+		- (And, as you can see, it's quite difficult for me to defend my PRs in English 😅)
+
+- A few games on Nintendo Switch using this port
+slide=title
+		- What can you expect from this port.
+		- (The games featured in the next slides were ported and/or published by other parties, not us.)
+- Rainbow Diamonds
+slide=mid_image
+image=sc_rainbowdiamonds.jpg
+- The Hero with a Thousand Arms
+image=sc_herothousand.jpg
+- Parry Nightmare
+image=sc_parrynightmare.jpg
+- Leftovers KO!
+image=sc_leftoversko.jpg
+- Cirrus Business
+image=sc_cirrusbusiness.jpg
+- Retro Kart Rush
+image=sc_retrokart.jpg
+- Toziuha Night: Dracula's Revenge
+image=sc_toziuha_1.jpg
+- Toziuha Night: Order of the Alchemists
+image=sc_toziuha_2.jpg
+- Keep the Heroes Out
+image=sc_keepheroes.jpg
+
+
+
+- 25-MINUTE INTRODUCTION COMPLETED
+slide=title
+	- Thank you for your attention. Now I'll get started with the real topic of my talk:
+		- THE TRUTH BEHIND THE TRUTH! (Plot twist!?)
+
+- TTBTT: About porting
+slide=right_image
+image=nswitch.jpg
+	- Porting a game is not about knowing your game engine, it's about knowing the platform's internals, its requirements and a LOT of love for solving puzzles.
+
+	- Having a working export template is just the first step of 10.
+
+	- You're on your own with self-porting:
+image=broken_switch.png
+		- If something is broken, it's on you.
+
+	- Almost everything will work as expected. Almost...
+		- Almost might mean a few workarounds, a few days debugging, or to have to abandon an impossible port.
+		- It happened one time, and trust me, I really tried.
+
+- TTBTT: Working with consoles
+slide=base
+	- NDAs. Can't say much, but...
+	
+	- All platforms currently have indie programs.
+	- If you send them a good pitch for an appealing game, they'll probably let you in.
+	
+	- Sony:
+		- · Recently applied and accepted as partner. Waiting for a moment to get started.
+	
+	- Microsoft:
+		- · ID@Xbox is nice. Accepted as partner and received Xbox devkits.
+		- · But MS bureaucracy is... complicated. My verification took 1 year.
+		- · (Luckily, this process has improved a lot lately!)
+
+- TTBTT: Working with consoles
+	- Nintendo:
+		- · Partner since 2021.
+		- · Easy and accessible. 
+		- · Everything is well documented and with a clear path.
+		- · Lots of sanity checks everywhere to catch mistakes early. Helps if you have ADD.
+		- · Their staff help a lot, and they'll find bugs you'd never imagine.
+	
+	- Hopefully, I will be able to say the same things about Sony and Microsoft sooner than later!
+
+- TTBTT: Porting tips
+	- Based on my experiencies, mostly 2D games.
+	- Don't copy them now, I'll share the slides later :)
+		- #1. Optimize the game for a mid-tier Android device.
+		- #2. Don't use Godot 3.x for mid/large-sized projects
+				- (often suffering from frame pacing issues).
+		- #3. Only use stable versions of Godot.
+		- #4. We have loads of RAM, but less CPU and GPU.
+		- #5. Bake and preload as much as you can.
+		- #6. Static art should not use shaders.
+				- (Using modulate does not hit performance.)
+
+- TTBTT: Porting tips
+		- #7. An static background should just be a texture. Prerrender them to one texture.
+		- #8. Use as few real-time lights as possible.
+		- #9. Most Light2Ds can be replaced with Sprite2D with additive blending mode.
+		- #10. Use RenderDoc to find out where you're wasting drawing calls.
+		- #11. Texture/Mesh LOD biases for quick gains.
+		- #12. Trigger all shaders & GPUParticles during load time.
+		- #13. Huge PackedByteArrays in text format are extremely slow to read.
+		- #14. Always export resources as binaries.
+		- #15. For some optimizations you might need to go lower. C++ 
+				- Luckily, Godot's code is pretty easy to read.
+		- #16. Save materials as resources, don't keep them embedded in the scenes.
+
+- TTBTT: Porting tips
+		- #17. Always set up a fallback font.
+				- Godot uses the first available system font, but not all platforms provide one.
+ 		- #18. Don't use WorkerThreadPools jobs for loading stuff.
+				- Even the best juggler has a ball limit.
+ 		- #19. Disable Android frame pacing.
+ 		- #20. Don't save the game too often.
+				- Save settings when leaving the settings menu.
+				- Save collectibles after ending the level.
+		- #21. You only need to load the game saves once.
+
+- TTBTT: Porting tips
+		- #22. Spend some time learning the debugging tools that the platform provides.
+		- #23. Try tinkering with every setting in the Project Settings and Viewport properties.
+		- #24. For single-player games, accept input from any available controllers.
+ 
+- TTBTT: About indie publishing
+slide=right_image
+image=gnomos.png
+	- Publishing means "to be able to port and distribute a game".
+			- Indie means ____ ____ ____ _ _ ___ __ __.
+
+	- Before making a big game, first do a smaller project to learn the process.
+
+	- Publishers, mid-tier and up, will be able to boost your game...
+		- ... but be careful with some of the smaller ones.
+		- Always ask for references.
+	
+	- I have heard stories of developers never getting paid any royalties because of unjustifiable recoup clauses.
+
+- TTBTT: About indie publishing
+image=gnomos.png
+	- The best marketing strategies are:
+			- · Making a good appealing & interesting game.
+			- · Having the game developers promoting it from day 1.
+			- · Having a time machine and releasing the game in 2020.
+
+	- Publishers can help to multiply the effect of that marketing, but that will only work if the game developer has already built some community.
+
+	- Same game could sell 10,000 or 100 copies.
+			- Timing the release date well is as extremely important as impossible. Very luck based.
+
+- TTBTT: About indie publishing
+slide=base
+	- A good publisher will propose changes to the game.
+			- · They're experienced editors and know what players usually like.
+			- · Short & fun is better than long & boring.
+			- · Unfair hard games don't usually sell well.
+	
+	- A developer that won't accept any changes is never worth the effort.
+			- · Probable dead game on release.
+	
+	- Programmers are not good at considering games for succesful publishing.
+			- · We see the good game behind not appealing art.
+
+- TTBTT: About indie publishing
+slide=left_image
+image=gnomos.png
+	- The "comes and goes" heavily drain our energies.
+		
+		- Of course, game developers should take their time to explore different publishers' proposals.
+		
+		- But if in January we propose a release for October, please don't have us on hold until September.
+		
+		- These common industry quirks end up provoking delays and breaking schedules. 🫠
+
+- Last thoughts & conclusions
+image=panreyes.jpg
+	- As of today, I still haven't created any games with Godot 🥲.
+	- My most successful game was PiX Pang...
+			- · Released 20 years ago, +200,000 free downloads.
+			- · Someone did a remake with Scratch 🥲
+	- If you do porting/publishing, you will make a bit of money, but you won't have time to create games.
+
+	- On one side, I look forward to get started on Xbox&PS5 porting.
+	- On the other hand, I already have too many on-going projects!
+	
+	- And RAWRLAB Games is not even my main job 🙃
+
+- Last thoughts & conclusions (for real now)
+image=panreyes.jpg
+	- Publishing & porting smaller games is really tiring and most of the times does not pay up
+			- but I love being able to help so many games
+			- and meeting so many amazing creators.
+			- (and luckily I don't have to pay the bills with it!)
+
+	- There are too many games and there's no sure way to make a hit.
+			- What worked yesterday, today won't.
+			- So please create something that makes you happy.
+
+
+- How can I donate for improving the ports?
+slide=right_image
+image=donate_qr.png
+		- [b][/b]
+	
+	
+	- If you use any FOSS software, try to chip in.
+	- Your donations will truly improve these ports:
+		- https://rawrlab.com/donate_to_support_our_godot_ports
+	
+	
+	- Please, take good note of the URL, or scan the QR, I can wait.
+
+- One last thing.
+slide=left_image
+image=untodeepest_store.png
+	- Our Godot 4.5 port is ready for production!
+
+- THE END
+slide=title
+		- Thank you for your attention!
+		- Feel free to reach me anytime, anywhere 👇
+		- Socials: @rawrlabgames  |  Discord: @panreyes  |  E-Mail: pablo@rawrlab.com
+		
+		- PS: If you can afford them, use W4Games ports!

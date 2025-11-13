@@ -1,0 +1,81 @@
+[gd_scene load_steps=8 format=3 uid="uid://jhxxynglv7a5"]
+
+[ext_resource type="Texture2D" uid="uid://bhimcgo4ba5y6" path="res://content/background-godotfest.webp" id="1_alinm"]
+[ext_resource type="Texture2D" uid="uid://biawvsm804dq4" path="res://content/godotfest_logo_blue.png" id="1_pnrpa"]
+[ext_resource type="Texture2D" uid="uid://bxv3fpvb7y4sh" path="res://content/logo_rawrlab.png" id="2_alinm"]
+
+[sub_resource type="SystemFont" id="SystemFont_rjcjf"]
+subpixel_positioning = 0
+
+[sub_resource type="Theme" id="Theme_5buq6"]
+default_font = SubResource("SystemFont_rjcjf")
+default_font_size = 70
+
+[sub_resource type="FontVariation" id="FontVariation_03nak"]
+spacing_bottom = 10
+
+[sub_resource type="Theme" id="Theme_03nak"]
+default_font = SubResource("FontVariation_03nak")
+default_font_size = 25
+
+[node name="Slide" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Background" type="Sprite2D" parent="."]
+self_modulate = Color(0.33660764, 0.33660764, 0.33660755, 1)
+position = Vector2(639.5, 360.5)
+scale = Vector2(0.8193466, 0.8234624)
+texture = ExtResource("1_alinm")
+
+[node name="TitleLabel" type="Label" parent="."]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 40.0
+offset_top = 25.0
+offset_right = 1238.0
+offset_bottom = 121.0
+theme = SubResource("Theme_5buq6")
+theme_override_colors/font_color = Color(1, 0.32542527, 0.8619351, 1)
+text = "THE TRUTH BEHIND THE TRUTH"
+
+[node name="ContentLabel" type="RichTextLabel" parent="."]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 56.0
+offset_top = 124.0
+offset_right = 1221.0
+offset_bottom = 721.0
+theme = SubResource("Theme_03nak")
+bbcode_enabled = true
+text = "THIS IS THE CONTENT
+ SECOND LINE
+  THIRD LINE
+ANOTHER ONE
+BLABLALBA
+OIRUJIOUERTOI
+APSODKIFPAOSDKFPOA
+AKSDO
+FKAPOKWEPOKRT
+PAOKDSFPO
+KASDFPAKSDF
+PADSK
+WEPRKASPFKASDFA
+SPEROWKFPOWERKF"
+scroll_active = false
+
+[node name="GodotfestLogoBlue" type="Sprite2D" parent="."]
+position = Vector2(1198.2861, 665.5625)
+scale = Vector2(0.108888894, 0.10888889)
+texture = ExtResource("1_pnrpa")
+
+[node name="LogoRawrlab" type="Sprite2D" parent="."]
+position = Vector2(1054.0372, 662.0625)
+scale = Vector2(0.02951056, 0.029510558)
+texture = ExtResource("2_alinm")
+
+[node name="Image" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(984, 402)

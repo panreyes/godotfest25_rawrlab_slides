@@ -1,0 +1,30 @@
+[gd_scene load_steps=5 format=3 uid="uid://bgqidqi3j5nqe"]
+
+[ext_resource type="PackedScene" uid="uid://jhxxynglv7a5" path="res://slide_templates/slide_template.tscn" id="3_vbkje"]
+[ext_resource type="Texture2D" uid="uid://b8mf5qovol85p" path="res://content/activate_windows.webp" id="5_vbkje"]
+[ext_resource type="Script" uid="uid://b6h2gp6lbn2ol" path="res://scripts/activate_windows.gd" id="6_dek86"]
+[ext_resource type="Script" uid="uid://bhs2aux16xfxs" path="res://scripts/slide_manager.gd" id="6_lga1w"]
+
+[node name="Presentation" type="Node2D"]
+
+[node name="SlideContainer" type="Node2D" parent="."]
+
+[node name="Slide" parent="SlideContainer" instance=ExtResource("3_vbkje")]
+unique_name_in_owner = true
+
+[node name="Overlay" type="TextureRect" parent="."]
+unique_name_in_owner = true
+visible = false
+offset_top = 6.1035156e-05
+offset_bottom = 6.1035156e-05
+
+[node name="ActivateWindows" type="Sprite2D" parent="."]
+visible = false
+modulate = Color(1, 1, 1, 0.62352943)
+position = Vector2(1056, 648.99994)
+scale = Vector2(0.39375, 0.39375)
+texture = ExtResource("5_vbkje")
+script = ExtResource("6_dek86")
+
+[node name="SlideManager" type="Node2D" parent="."]
+script = ExtResource("6_lga1w")
